@@ -12,7 +12,7 @@ class Temperature():
         return float(self.rawData) / 1000
     @property
     def F(self):
-        return self.C * 9.0 / 5.0 + 23.0
+        return self.C * 9.0 / 5.0 + 32.0
 
 #class for controlling the temperature sensor
 class TempSensorController(threading.Thread):
